@@ -4,6 +4,7 @@ import LoginPage from './pages/LoginPage';
 import Admin from './pages/Admin';
 import RegisteredUser from './pages/RegisteredUser';
 import PrivilegedUser from './pages/PrivilegedUser';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/registeredUser' element={<RegisteredUser/>}/>
         <Route path='/privilegedUser' element={<PrivilegedUser/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
