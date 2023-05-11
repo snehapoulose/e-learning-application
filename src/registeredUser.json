@@ -1,7 +1,7 @@
 [
-  { "id": 1, "email": "dfetteplace0@meetup.com", "password": "Dfe@123" },
-  { "id": 2, "email": "mgritland1@bandcamp.com", "password": "Mgr@123" },
-  { "id": 3, "email": "mhelmke2@bbc.co.uk", "password": "Mhe@123" },
-  { "id": 4, "email": "dness3@youku.com", "password": "Dne@123" },
-  { "id": 5, "email": "bmassot4@washingtonpost.com", "password": "Bma@123" }
+  { "id": 1, "email": "dfetteplace0@meetup.com", "password": "Dfe@123","name":"Davy Campo" },
+  { "id": 2, "email": "mgritland1@bandcamp.com", "password": "Mgr@123","name":"Benoite Danielsky" },
+  { "id": 3, "email": "mhelmke2@bbc.co.uk", "password": "Mhe@123","name":"Karola Schroeder" },
+  { "id": 4, "email": "dness3@youku.com", "password": "Dne@123","name":"Marten Jans" },
+  { "id": 5, "email": "bmassot4@washingtonpost.com", "password": "Bma@123","name":"Nellie Livesay" }
 ]

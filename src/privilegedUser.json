@@ -1,7 +1,7 @@
 [
-  { "id": 1, "email": "kleimster0@examiner.com","password":"Kle@123" },
-  { "id": 2, "email": "ndransfield1@reuters.com","password":"Ndr@123" },
-  { "id": 3, "email": "mmcbeith2@ifeng.com","password":"Mmc@123" },
-  { "id": 4, "email": "tcarnoghan3@google.ru","password":"Tca@123" },
-  { "id": 5, "email": "fjanek4@wp.com","password":"Fja@123"}
+  { "id": 1, "email": "kleimster0@examiner.com","password":"Kle@123","name":"Mara Thouless" },
+  { "id": 2, "email": "ndransfield1@reuters.com","password":"Ndr@123","name":"Wesley Weavers" },
+  { "id": 3, "email": "mmcbeith2@ifeng.com","password":"Mmc@123","name":"Ario Brownsea" },
+  { "id": 4, "email": "tcarnoghan3@google.ru","password":"Tca@123","name":"Leslie Tommei" },
+  { "id": 5, "email": "fjanek4@wp.com","password":"Fja@123","name":"Osmond Nairy"}
 ]

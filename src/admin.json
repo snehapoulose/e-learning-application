@@ -1,7 +1,7 @@
 [
-  { "id": 1, "email": "jshannahan0@de.vu", "password": "Jsh@123" , "first_name":"Averyl","last_name":"Tattersill" },
-  { "id": 2, "email": "hbroske1@jiathis.com", "password": "Hbr@123","first_name":"Cortney","last_name":"Ansell" },
-  { "id": 3, "email": "hcenter2@ebay.co.uk", "password": "Hce@123" ,"first_name":"Bent","last_name":"Lowseley" },
-  { "id": 4, "email": "bsnawdon3@stumbleupon.com", "password": "Bsn@123" , "first_name":"Flori","last_name":"Dilnot" },
-  { "id": 5, "email": "eluty4@squidoo.com", "password": "Elu@123" , "first_name":"Gerladina","last_name":"Shenton"}
+  { "id": 1, "email": "jshannahan0@de.vu", "password": "Jsh@123" , "name":"Ameline Ghiriardelli" },
+  { "id": 2, "email": "hbroske1@jiathis.com", "password": "Hbr@123","name":"Morey Gianettini" },
+  { "id": 3, "email": "hcenter2@ebay.co.uk", "password": "Hce@123" , "name":"Benedikt Andor"},
+  { "id": 4, "email": "bsnawdon3@stumbleupon.com", "password": "Bsn@123" ,"name":"Sigvard Wharrier"  },
+  { "id": 5, "email": "eluty4@squidoo.com", "password": "Elu@123" ,"name":"Jolene Matschek" }
 ]
