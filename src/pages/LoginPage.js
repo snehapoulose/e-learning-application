@@ -75,7 +75,7 @@ export default function LoginPage() {
         } else if (user.email !== username && user.password !== password) {
           errors.password = "Invalid credentials or invalid role";
         } else {
-          // localStorage.setItem("usersDetails", JSON.stringify(user));
+          localStorage.setItem("signedUserDetails", JSON.stringify(user));
           navigate("/privilegedUser");
         }
       });

@@ -5,6 +5,7 @@ import Admin from './pages/Admin';
 import RegisteredUser from './pages/RegisteredUser';
 import PrivilegedUser from './pages/PrivilegedUser';
 import Footer from './components/Footer';
+import CourseInvoice from './pages/CourseInvoice';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         <Route path="/" element= {<LoginPage/>}/>
         <Route path = "/admin" element={<Admin/>}/>
         <Route path='/registeredUser' element={<RegisteredUser/>}/>
+        <Route path="/courseInvoice/:id" element={<CourseInvoice />}/>
         <Route path='/privilegedUser' element={<PrivilegedUser/>}/>
+
       </Routes>
       <Footer/>
     </div>

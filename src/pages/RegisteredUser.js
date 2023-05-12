@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import Header from '../components/Header'
 import ReactPaginate from "react-paginate";
 import "../Styles/RegisteredUser.css"
+import { Link } from 'react-router-dom';
 
 export default function RegisteredUser() {
   const [courses, setCourses] = useState([]);
@@ -24,6 +25,20 @@ export default function RegisteredUser() {
         <div className='home-contents'>
         <h2> ${course.id*100}</h2>
         </div>
+        <div className="home-contents">
+            <Link to={`/courseInvoice/${course.id}`}>
+              <button type="submit"
+                onClick={() => {
+                  localStorage.setItem("courseDetails", JSON.stringify(course));
+                  console.log(course.title);
+                }}
+                className="hotel-invoice-button"
+              >
+                Buy Now
+              </button>
+              
+            </Link>
+          </div>
       </div>
     );
   });

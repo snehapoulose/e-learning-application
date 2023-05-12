@@ -1,0 +1,14 @@
+.course-invoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 0px;
+    height: 460px;
+}
+p{
+    color: #c0392b;
+    font-weight: 600;
+    font-size: 25px;
+}
