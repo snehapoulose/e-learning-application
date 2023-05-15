@@ -6,6 +6,10 @@ import RegisteredUser from './pages/RegisteredUser';
 import PrivilegedUser from './pages/PrivilegedUser';
 import Footer from './components/Footer';
 import CourseInvoice from './pages/CourseInvoice';
+import CourseChapter from './pages/CourseChapter';
+import DiscussionSpace from './components/DiscussionSpace'
+
+
 
 function App() {
   return (
@@ -16,7 +20,8 @@ function App() {
         <Route path='/registeredUser' element={<RegisteredUser/>}/>
         <Route path="/courseInvoice/:id" element={<CourseInvoice />}/>
         <Route path='/privilegedUser' element={<PrivilegedUser/>}/>
-
+        <Route path='/courseChapter/:id' element={<CourseChapter/>}/>
+        <Route path='/discussionSpace' element={<DiscussionSpace/>}/>
       </Routes>
       <Footer/>
     </div>

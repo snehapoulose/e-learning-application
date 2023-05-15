@@ -1,11 +1,12 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
-import {getUserName} from './functions/getUserName'
+// import {getUserName} from './functions/getUserName'
 import '../Styles/Header.css'
 
 export default function Header() {
     const navigate = useNavigate();
-    const loggedInUser = getUserName();
+    // const getUserDetails = JSON.parse(localStorage.getItem("signedUserDetails"));
+    // const loggedInUser = getUserName();
     function handleLogOut() {
         navigate("/");
         localStorage.removeItem("signedUserDetails");
@@ -21,7 +22,7 @@ export default function Header() {
           >
             LOGOUT
           </button>
-          <small>{loggedInUser}</small>
+          {/* <small>{getUserDetails.name}</small> */}
         </header>
       </div>
     </div>
