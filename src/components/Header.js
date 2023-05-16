@@ -1,6 +1,7 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
 // import {getUserName} from './functions/getUserName'
+import discussion from './images/discussion.png'
 import '../Styles/Header.css'
 
 export default function Header() {
@@ -10,6 +11,9 @@ export default function Header() {
     function handleLogOut() {
         navigate("/");
         localStorage.removeItem("signedUserDetails");
+      }
+      function moveToDiscussionForum(){
+        navigate("/discussionSpace")
       }
   return (
     <div>
@@ -23,6 +27,9 @@ export default function Header() {
             LOGOUT
           </button>
           <small>{getUserDetails?.name}</small>
+          <button className='discussion-button' onClick={moveToDiscussionForum}>
+            <img src={discussion} alt='react icon' className='discussion-icon'/>
+          </button>
         </header>
       </div>
     </div>
