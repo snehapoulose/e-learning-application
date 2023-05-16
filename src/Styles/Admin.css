@@ -102,4 +102,7 @@
     color: #c0392b;
     font-weight: 800;
   }
+li{
+  list-style-type: none;
+}
   

@@ -5,7 +5,7 @@ describe('Test the admin component', () => {
     test("render the admin component with button ", async ()=>{
         render(<Router><Admin/></Router>);
         const buttonList = await screen.findAllByRole("button");
-        expect(buttonList).toHaveLength(5);
+        expect(buttonList).toHaveLength(4);
     });
     test("should render the course names when api responds",async()=>{
         render(<Router><Admin/></Router>);

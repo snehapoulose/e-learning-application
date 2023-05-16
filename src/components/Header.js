@@ -5,7 +5,7 @@ import '../Styles/Header.css'
 
 export default function Header() {
     const navigate = useNavigate();
-    // const getUserDetails = JSON.parse(localStorage.getItem("signedUserDetails"));
+    const getUserDetails = JSON.parse(localStorage.getItem("signedUserDetails"));
     // const loggedInUser = getUserName();
     function handleLogOut() {
         navigate("/");
@@ -22,7 +22,7 @@ export default function Header() {
           >
             LOGOUT
           </button>
-          {/* <small>{getUserDetails.name}</small> */}
+          <small>{getUserDetails?.name}</small>
         </header>
       </div>
     </div>

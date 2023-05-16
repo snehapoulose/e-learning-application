@@ -25,6 +25,7 @@ export default function Admin() {
   .map((course) => {
     return (
       <div>
+        <li key = {course.id}>
         <div className="home-contents">
           <h2>{course.title}</h2>
         </div>
@@ -36,6 +37,7 @@ export default function Admin() {
             Delete
           </button>
         </div>
+        </li>
       </div>
     );
   });

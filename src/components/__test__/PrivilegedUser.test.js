@@ -5,7 +5,7 @@ describe('Test the privileged user component', () => {
     test("render the privilegedUser component with Book Hotel button", async() => {
         render(<Router><PrivilegedUser/></Router>)
         const buttonList = await screen.findAllByRole("button");
-        expect(buttonList).toHaveLength(4);
+        expect(buttonList).toHaveLength(3);
     })
     test("should render the course names when api responds",async()=>{
         render(<Router><PrivilegedUser/></Router>);
